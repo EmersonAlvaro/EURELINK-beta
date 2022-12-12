@@ -2,12 +2,123 @@
     navigatingTo="onNavigatingTo"  
     xmlns="http://schemas.nativescript.org/tns.xsd">
 
-    <ActionBar>
-        <Label text="Browse"></Label>
+    <ActionBar title="Timelime" >
+        <ActionItem position="left" icon="font://&#xf0c9;" class="fas" />
     </ActionBar>
 
-    <GridLayout class="page__content">
-        <Label class="page__content-icon far fas fab" text="&#xe29c;"></Label>
-        <Label class="page__content-placeholder" text="<!-- Browse page content goes here -->"></Label>
-    </GridLayout>
+    <!-- <GridLayout class="page__content"> -->
+        <!-- <Label class="page__content-icon far fas fab" text="&#xe29c;"></Label> -->
+        <!-- <Label class="page__content-placeholder" text="Browse page content goes here"></Label> -->
+    <!-- </GridLayout> -->
+
+    <ScrollView  orientation="vertical"> 
+        <StackLayout orientation="vertical">
+            <GridLayout class="timelineGrid" columns="2*,1*, 4*" rows="*, *" backgroundColor="#3c495e">
+                <Label row="0" textAlignment="center" col="0" >
+                    <FormattedString>
+                        <Span text="Sept 28 &#xa;" fontWeight="bold" />
+                        <Span text="2022 &#xa;" fontWeight="bold" />
+                    </FormattedString>
+                </Label>
+                <Label text="&#xf1ce;" row="0" textAlignment="center" col="1"  />
+                <Label textWrap="true" textAlignment="justify" row="0" col="2" >
+                    <FormattedString>
+                        <Span text="EventName Demo  &#xa;" fontWeight="bold" />
+                        <Span text="&#xa;"  />
+                        <Span text="NativeScript is an open-source framework to develop mobile apps on the Apple iOS and Android platforms. It was originally conceived and developed by Progress. " />
+                    </FormattedString>
+                </Label>
+            </GridLayout>
+
+            <GridLayout class="timelineGrid" columns="2*,1*, 4*" rows="*, *" backgroundColor="#3c495e">
+                <Label row="0" textAlignment="center" col="0" >
+                    <FormattedString>
+                        <Span text="Sept 28 &#xa;" fontWeight="bold" />
+                        <Span text="2022 &#xa;" fontWeight="bold" />
+                    </FormattedString>
+                </Label>
+                <Label text="&#xf1ce;" row="0" textAlignment="center" col="1"  />
+                <Label textWrap="true" textAlignment="justify" row="0" col="2" >
+                    <FormattedString>
+                        <Span text="EventName Demo  &#xa;" fontWeight="bold" />
+                        <Span text="&#xa;"  />
+                        <Span text="NativeScript is an open-source framework to develop mobile apps on the Apple iOS and Android platforms. It was originally conceived and developed by Progress. " />
+                    </FormattedString>
+                </Label>
+            </GridLayout>
+
+            <GridLayout class="timelineGrid" columns="2*,1*, 4*" rows="*, *" backgroundColor="#3c495e">
+                <Label row="0" textAlignment="center" col="0" >
+                    <FormattedString>
+                        <Span text="Sept 28 &#xa;" fontWeight="bold" />
+                        <Span text="2022 &#xa;" fontWeight="bold" />
+                    </FormattedString>
+                </Label>
+                <Label text="&#xf1ce;" row="0" textAlignment="center" col="1"  />
+                <Label textWrap="true" textAlignment="justify" row="0" col="2" >
+                    <FormattedString>
+                        <Span text="EventName Demo  &#xa;" fontWeight="bold" />
+                        <Span text="&#xa;"  />
+                        <Span text="NativeScript is an open-source framework to develop mobile apps on the Apple iOS and Android platforms. It was originally conceived and developed by Progress. " />
+                    </FormattedString>
+                </Label>
+            </GridLayout>
+
+            <GridLayout class="timelineGrid" columns="2*,1*, 4*" rows="*, *" backgroundColor="#3c495e">
+                <Label row="0" textAlignment="center" col="0" >
+                    <FormattedString>
+                        <Span text="Sept 28 &#xa;" fontWeight="bold" />
+                        <Span text="2022 &#xa;" fontWeight="bold" />
+                    </FormattedString>
+                </Label>
+                <Label text="&#xf1ce;" row="0" textAlignment="center" col="1"  />
+                <Label textWrap="true" textAlignment="justify" row="0" col="2" >
+                    <FormattedString>
+                        <Span text="EventName Demo  &#xa;" fontWeight="bold" />
+                        <Span text="&#xa;"  />
+                        <Span text="NativeScript is an open-source framework to develop mobile apps on the Apple iOS and Android platforms. It was originally conceived and developed by Progress. " />
+                    </FormattedString>
+                </Label>
+            </GridLayout>
+
+            <GridLayout class="timelineGrid" columns="2*,1*, 4*" rows="*, *" backgroundColor="#3c495e">
+                <Label row="0" textAlignment="center" col="0" >
+                    <FormattedString>
+                        <Span text="Sept 28 &#xa;" fontWeight="bold" />
+                        <Span text="2022 &#xa;" fontWeight="bold" />
+                    </FormattedString>
+                </Label>
+                <Label text="&#xf1ce;" row="0" textAlignment="center" col="1"  />
+                <Label textWrap="true" textAlignment="justify" row="0" col="2" >
+                    <FormattedString>
+                        <Span text="EventName Demo  &#xa;" fontWeight="bold" />
+                        <Span text="&#xa;"  />
+                        <Span text="NativeScript is an open-source framework to develop mobile apps on the Apple iOS and Android platforms. It was originally conceived and developed by Progress. " />
+                    </FormattedString>
+                </Label>
+            </GridLayout>
+
+            <GridLayout class="timelineGrid" columns="2*,1*, 4*" rows="*, *" backgroundColor="#3c495e">
+                <Label row="0" textAlignment="center" col="0" >
+                    <FormattedString>
+                        <Span text="Sept 28 &#xa; 2022" fontWeight="bold" />
+                        <!-- <Span text=" &#xa;" fontWeight="bold" /> -->
+                    </FormattedString>
+                </Label>
+                <Label text="&#xf1ce;" row="0" textAlignment="center" col="1"  />
+                <Label textWrap="true" textAlignment="justify" row="0" col="2" >
+                    <FormattedString>
+                        <Span text="Event Name Demo &#xa;" fontWeight="bold" />
+                        <Span text="&#xa;"  />
+                        <Span text="NativeScript is an open-source framework to develop mobile apps on the Apple iOS and Android platforms. It was originally conceived and developed by Progress. " />
+                    </FormattedString>
+                </Label>
+            </GridLayout>
+
+
+        </StackLayout>
+        
+    </ScrollView >
+
+
 </Page>

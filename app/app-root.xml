@@ -1,13 +1,13 @@
 <TabView androidTabsPosition="bottom">
-    <TabViewItem class="fab" title="Home" iconSource="font://&#xf015;" >
+    <TabViewItem class="fas" title="Home" iconSource="font://&#xf015;"  >
         <Frame defaultPage="home/home-items-page" />
     </TabViewItem>
 
-    <TabViewItem class="fab" title="CarPooling" iconSource="font://&#xf073;" >
+    <TabViewItem class="fas" title="CarPooling" iconSource="font://&#xf073;" >
         <Frame defaultPage="carpooling/carpooling-page" />
     </TabViewItem>
 
-    <TabViewItem class="fab" title="Timeline" iconSource="font://&#xf073;" >
+    <TabViewItem class="fas" title="Timeline" iconSource="font://&#xf073;" >
         <Frame defaultPage="timeline/timeline-page" />
     </TabViewItem>
 
@@ -15,11 +15,11 @@
         <Frame defaultPage="event/event-page" />
     </TabViewItem> -->
     
-    <TabViewItem class="fas" title="MyU" iconSource="font://&#xf073;" >
+    <TabViewItem title="MyU" iconSource="font://&#xf073;" >
         <Frame defaultPage="myu/myu-page" />
     </TabViewItem>
 
-    <TabViewItem title="Profile" iconSource="font://fas" >
+    <TabViewItem title="Profile"  iconSource="font://&#xf007;" >
         <Frame defaultPage="profile/profile-page" />
     </TabViewItem>
 

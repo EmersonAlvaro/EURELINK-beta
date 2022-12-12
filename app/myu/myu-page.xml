@@ -2,8 +2,8 @@
     navigatingTo="onNavigatingTo"  
     xmlns="http://schemas.nativescript.org/tns.xsd">
 
-    <ActionBar>
-        <Label text="Browse"></Label>
+    <ActionBar title="MyU" >
+        <ActionItem position="left" icon="font://&#xf0c9;" class="fas" />
     </ActionBar>
 
     <GridLayout columns="2*, 2*" rows="*, *, *" backgroundColor="#3c495e">

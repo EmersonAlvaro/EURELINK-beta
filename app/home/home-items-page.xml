@@ -1,11 +1,10 @@
 <Page navigatingTo="onNavigatingTo" xmlns="http://schemas.nativescript.org/tns.xsd">
 
-    <ActionBar>
-        <StackLayout orientation="horizontal">
-            <Image src="res://logo" width="40" height="40" verticalAlignment="center" />
-            <Label text="Home" fontSize="24" verticalAlignment="center" />
-        </StackLayout>
-    </ActionBar>
+<ActionBar title="EURELINK">
+  <!-- Using the icon property and Icon Fonts -->
+  <ActionItem position="left" icon="font://&#xf015;" class="fas" />
+  
+</ActionBar>
 
     <!-- <ListView items="{{ items }}" itemTap="onItemTap">
         <ListView.itemTemplate>
@@ -17,7 +16,7 @@
 
     <GridLayout class="page__content">
         <Label class="page__content-icon far fas fab" text="&#xf015;"> </Label>
-        <Label class="page__content-placeholder" text="<!-- Search page content goes here"></Label>
+        <Label class="page__content-placeholder" text="<!-- Home page content goes here"></Label>
     </GridLayout>
 
 </Page>
