@@ -1,7 +1,10 @@
 <Page navigatingTo="onNavigatingTo" xmlns="http://schemas.nativescript.org/tns.xsd">
 
     <ActionBar>
-        <Label text="Home" />
+        <StackLayout orientation="horizontal">
+            <Image src="res://logo" width="40" height="40" verticalAlignment="center" />
+            <Label text="Home" fontSize="24" verticalAlignment="center" />
+        </StackLayout>
     </ActionBar>
 
     <!-- <ListView items="{{ items }}" itemTap="onItemTap">
@@ -12,11 +15,9 @@
         </ListView.itemTemplate>
     </ListView> -->
 
-    <!-- <Label class="fa" text="{{'fa-bluetooth' | fontawesome }}"></Label>  -->
-
     <GridLayout class="page__content">
-        <Label class="page__content-icon fa-home" text="&#xf002;">
-        </Label>
-        <Label class="page__content-placeholder" text="<!-- Search page content goes here -->"></Label>
+        <Label class="page__content-icon far fas fab" text="&#xf015;"> </Label>
+        <Label class="page__content-placeholder" text="<!-- Search page content goes here"></Label>
     </GridLayout>
+
 </Page>

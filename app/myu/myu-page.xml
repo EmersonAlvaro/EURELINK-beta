@@ -6,8 +6,13 @@
         <Label text="Browse"></Label>
     </ActionBar>
 
-    <GridLayout class="page__content">
-        <Label class="page__content-icon far" text="&#xf1ea;"></Label>
-        <Label class="page__content-placeholder" text="<!-- Browse page content goes here -->"></Label>
+    <GridLayout columns="2*, 2*" rows="*, *, *" backgroundColor="#3c495e">
+        <label text="SoftDev" textAlignment="center" row="0" col="0" backgroundColor="#43b883" />
+        <label text="MobServ" textAlignment="center" row="0" col="1" backgroundColor="#1c6b48" />
+        <label text="MobSec" textAlignment="center" row="1" col="0" backgroundColor="#289062" />
+        <label text="WebInt" textAlignment="center" row="1" col="1" backgroundColor="#43b883" />
+        <label text="TeamLead" textAlignment="center" row="2" col="1" backgroundColor="#289062" />
+        <label text="SysSec" textAlignment="center" row="2" col="0" backgroundColor="#43b883" />
     </GridLayout>
+    
 </Page>

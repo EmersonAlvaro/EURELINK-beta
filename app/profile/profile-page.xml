@@ -7,7 +7,8 @@
     </ActionBar>
 
     <GridLayout class="page__content">
-        <Label class="page__content-icon far" text="&#xf1ea;"></Label>
-        <Label class="page__content-placeholder" text="<!-- Browse page content goes here -->"></Label>
+        <Label class="page__content-icon far" text="&#xf007;"></Label>
+        <Label class="page__content-placeholder" text="User Profile"></Label>
+        <Label  text="Name"></Label>
     </GridLayout>
 </Page>
