@@ -1,5 +1,5 @@
 <TabView androidTabsPosition="bottom">
-    <TabViewItem class="fas" title="Home" iconSource="font://&#xf015;"  >
+    <TabViewItem class="fas" title="Home" iconSource="font://home;"  >
         <Frame defaultPage="home/home-items-page" />
     </TabViewItem>
 
